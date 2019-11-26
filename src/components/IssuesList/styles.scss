@@ -1,0 +1,27 @@
+.issues-list__select-block {
+  height: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 140px;
+}
+
+.issues-list__select {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.issues-list__items {
+  list-style: none;
+  padding: 0;
+}
+
+.issues-list__item + .issues-list__item {
+  margin-top: 25px;
+}
+
+.issues-list__pagination {
+  margin-top: 30px;
+}
